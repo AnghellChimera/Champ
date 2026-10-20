@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>champ landing page</title>
+    <link rel="icon" href="assests/logo.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --first-color: #295251;
+            --font-family-1: "Raleway", sans-serif;
+            --button-size: 0.8rem 2.5rem;
+            --color-1: #161616;
+            --color-2: #16161654;
+            --prod-bg-width: 200px;
+            --prod-bg-height: 200px;
+            --prod-bg: #C4C4C42B;
+            --prod-min-height: 450px;
+            --bg-2: #F5F5F5;
+            --bg-3: #295251;
+            --font: #FFFFFF;
+            --pro-height: 100px;
+        }
+
+
+        .button-1 {
+            background-color:
+                var(--first-color);
+        }
+
+        .fontFamily-1 {
+            font-family:
+                var(--font-family-1);
+        }
+
+        .but-size {
+            padding: var(--button-size);
+        }
+
+        .search-bg {
+            background-color:
+                var(--color-2);
+        }
+
+        .font-color {
+            color:
+                var(--color-1);
+        }
+
+        .mob-h {
+            height:
+                var(--prod-bg-height);
+        }
+
+        .mob-w {
+            width: var(--prod-bg-width);
+        }
+
+        .prod-bg {
+            background-color: var(--prod-bg);
+        }
+
+        .prod-min-h {
+            min-height: var(--prod-min-height);
+        }
+
+        .bg-2 {
+            background-color: var(--bg-2);
+        }
+
+        .bg-3 {
+            background-color: var(--bg-3);
+        }
+        .font-color-2{
+            color: var(--font);
+        }
+        .text-h {
+            max-height: var(--pro-height);
+        }
+    </style>
+</head>
+
+<body id="index.html">
+    <div class="w-100! pb-5">
+        <section class="section-1">
+            <div class="container">
+                <nav class="navbar justify-content-between navbar-expand-lg d-flex pt-xl-3 nav-box">
+                    <div class="container d-flex justify-content-md-between me-md-0 align-items-center flex-row"
+                        id="nav-box">
+                        <img src="assests/logo.png" alt="logo" class="d-inline-block align-text-top">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ms-md-5 align-items-xl-center" id="navbarSupportedContent">
+                            <ul
+                                class="navbar-nav mx-auto mb-2 me-xl-0 d-flex justify-content-md-between align-items-center mb-lg-0 gap-lg-5 gap-xl-5 nav-but">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="product.html">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button onclick="location.href='sign-in.html'" type="button"
+                                        class="btn btn-lg button-1 but-size" id="but-1">Create Account
+                                    </button>
+                                </li>
+                            </ul>
+                            <!-- <button type="button" class="btn ms-5 btn-lg" id="but-1">Work with us <img src="Assest/Arrow.png"
+                                alt="arrow"></button> -->
+                            <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row-fluid d-xl-flex w-100">
+                <div class="col-10 col-md-6 col-xl-3 align-self-center px-4 py-2 px-xl-3" id="search-box">
+                    <h1 class="search-head font-color col-9 col-md-7 col-xl-12">We Help You Make Modern Furniture</h1>
+                    <p class="search-text font-color col-10 col-md-6 col-xl-11">We will help you design an elegant and
+                        luxurious furniture by top furnture designers.</p>
+                    <div class="input-group mb-3 col-xl-10" id="help.html">
+                        <input type="search" class="form-control border-0 font-color search-bg"
+                            placeholder="Explore Furniture" aria-label="Search">
+                        <img src="assests/search.png" alt=""
+                            class="position-absolute end-0 top-50 translate-middle-y me-2">
+                        <!-- <button class="btn btn-outline-secondary p-1 position-relative end-0 search-bg border-0" type="button" id="search-image-button">
+                            <img src="assests/search.png" alt="Search" class="position-relative end-100">
+                        </button> -->
+                    </div>
+                </div>
+                <div class="col col-xl-">
+                    <img src="assests/Rectangle 1.png" alt="" style="height: 90vh;" class="w-100">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container pt-md-2 pt-xl-5">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="">
+                        <h1 class="prod font-color">Products</h1>
+                    </div>
+                    <div class="ps-0 ps-md-0 ps-xl-0">
+                        <p class="see font-color ms-xl-0"><a href="#" class="see text-decoration-none font-color">See
+                                All <img src="assests/Vector.png" alt="arrow"></a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="nav-bar d-flex justify-content-center align-items-center pt-2">
+                        <div class=" d-flex justify-content-between pb-3 gap-3">
+                            <a href="#" class="product-type text-decoration-none active font-color"
+                                aria-current="page">All</a>
+                            <a href="#" class="product-type text-decoration-none font-color">Bed</a>
+                            <a href="#" class="product-type text-decoration-none font-color">Sofa</a>
+                            <a href="#" class="product-type text-decoration-none font-color">Chair</a>
+                            <a href="#" class="product-type text-decoration-none font-color">Light</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container row pt-3 pt-xl-5 justify-content-center justify-content-md-between ">
+                    <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                        <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative ">
+                            <div class="prod-bg min-height-50   flex-shrink-0 text-center mob-w mob-h">
+                                <p class="product pt-4 font-color">Hand Base Lamp</p>
+                                <p class="current-price font-color text-h">$36.00 <span class="previous-price"><del
+                                            class="previous-price font-color">$40.00</del></span></p>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center position-absolute top-100 translate-middle-y pt-5">
+                                <img src="assests/Product-1.png" alt="Lamp" class="mt-5 mx-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-min-h col col-md-6 col-xl-4 ps-md-5 ps-xl-5 px-5 mx-5 mx-md-0">
+                        <div class="col-10 col-md-6 col-xl-4 position-relative ps-md-5 ps-xl-5">
+                            <div class="prod-bg text-center mob-w mob-h">
+                                <p class="product pt-4 font-color ">Vintage Chair</p>
+                                <p class="current-price">$85.00 <span class="previous-price"><del
+                                            class="previous-price font-color">$65.00</del></span></p>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center position-absolute top-100 translate-middle-y mt-5">
+                                <img src="assests/product-2.png" alt="chair" class="mt-0 mx-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-min-h col col-md-6 col-xl-4 ps-xl-5 px-5 mx-5 mx-md-0">
+                        <div class="col-10 col-md-6 col-xl-4 position-relative ps-xl-5">
+                            <div class="prod-bg text-center mob-w mob-h">
+                                <p class="product pt-4 font-color">Lamp Tool</p>
+                                <p class="current-price">$46.00 <span class="previous-price"><del
+                                            class="previous-price font-color">$36.00</del></span></p>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center position-absolute top-100 translate-middle-y mt-5">
+                                <img src="assests/product-3.png" alt="Lamp Tool" class="mt-3 mx-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-min-h col col-md-6 col-xl-4 ps-md-5 ps-xl-0 px-5 mx-5 mx-md-0">
+                        <div class="col-10 col-md-6 col-xl-4 position-relative ps-md-5 ps-xl-5">
+                            <div class="prod-bg text-center mob-w mob-h">
+                                <p class="product pt-4 font-color">Stylish Chair</p>
+                                <p class="current-price">$45.00 <span class="previous-price"><del
+                                            class="previous-price font-color">$55.00</del></span></p>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center 
+                                position-absolute top-100 translate-middle-y mt-5 px-2">
+                                <img src="assests/product-4.png" alt="Stylish chair" class="mt-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-min-h col col-md-6 col-xl-4 ps-xl-5 px-5 mx-5 mx-md-0">
+                        <div class="col-10 col-md-6 col-xl-4 position-relative ps-xl-5">
+                            <div class="prod-bg text-center mob-w mob-h">
+                                <p class="product pt-4 font-color">Vintage Chair</p>
+                                <p class="current-price">$65.00 <span class="previous-price"><del
+                                            class="previous-price font-color">$75.00</del></span></p>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center position-absolute top-100 translate-middle-y mt-5">
+                                <img src="assests/product-5.png" alt="Vintage chair" class="mt-0 mx-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-min-h col col-md-6 col-xl-4 ps-md-5 ps-xl-5 px-5 mx-5 mx-md-0">
+                        <div class="col-10 col-md-6 col-xl-4 position-relative ps-md-5 pd-xl-5">
+                            <div class="prod-bg text-center mob-w mob-h">
+                                <p class="product pt-4 font-color">Stackable Chair</p>
+                                <p class="current-price">$87.00 <span class="previous-price"><del
+                                            class="previous-price font-color">$97.00</del></span></p>
+                            </div>
+                            <div
+                                class="d-flex justify-content-center position-absolute top-100 translate-middle-y mt-5">
+                                <img src="assests/Product-6.png" alt="Stackable Chair" class="mt-0 mx-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ps-xl-3 ps-md-5 ps-xl-5 pb-3" id="deals.html">
+            <div class="row w-100 ps-5">
+                <div class="col-10 col-md-10 col-xl-3">
+                    <h1 class="hot font-color col-xl-12 pb-xl-4">Hot 🔥 deals for you </h1>
+                    <p class="deal-text font-color col-12 pb-3 pb-xl-0 pt-xl-3 col-md-5 col-xl-9">Online shopping for
+                        real sales
+                        direct
+                        to consumers</p>
+                </div>
+                <div class="col col-md-4 col-xl-3">
+                    <div class="col align-self-center justify-self-center px-5 pb-2 pb-md-3 pb-xl-5 pt-xl-2">
+                        <img src="assests/layer-group.png" alt="icon" class="tre" id="ici">
+                    </div>
+                    <h5 class="deal-head font-color col-xl-8 pb-2 pb-md-3 pb-xl-3">1.5% cashback</h5>
+                    <p class="deal-text font-color col-md-9 col-xl-9">Online shopping for retail sales direct to
+                        consumers</p>
+                </div>
+                <div class="col col-md-4 col-xl-3">
+                    <div class="col align-self-center justify-self-center px-5 pb-2 pb-md-3 pb-xl-5 pt-xl-2">
+                        <img src="assests/layer-group.png" alt="icon" class="tre" id="ici">
+                    </div>
+                    <h5 class="deal-head font-color col-xl-6 pb-2 pb-md-3 pb-xl-3">30-day terms</h5>
+                    <p class="deal-text font-color col-md-9 col-xl-9">Online shopping for retail sales direct to
+                        consumers</p>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3">
+                    <div class="col align-self-center justify-self-center px-5 pb-2 pb-md-3 pb-xl-5 pt-xl-2">
+                        <img src="assests/layer-group.png" alt="icon" class="tre" id="ici">
+                    </div>
+                    <h6 class="deal-head font-color col-xl-6 pb-2 
+                    pb-md-3 pb-xl-3">Save Money</h6>
+                    <p class="deal-text font-color col-md-9 col-xl-9">Online shopping for retail sales direct to
+                        consumers</p>
+                </div>
+            </div>
+        </section>
+        <section class="" id="about.html">
+            <div class="container ms-md-5">
+                <div class="container ps-5 w-100">
+                    <div class="col">
+                        <h1 class="about pb-4 pb-lg-4 font-color">About Us</h1>
+                        <p class="about-text col-md-8 col-lg-6 col-xl-5 pb-4  pb-lg-5 font-color">All Bank consultancy, we take pride in our values - service,
+                            integrity,
+                            and excellence.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <div class="row">
+                                <div class="col-6 col-xl-6">
+                                    <h1 class="num font-color">1.</h1>
+                                    <h3 class="about-head font-color">Who We Are</h3>
+                                    <p class="about-text pb-4  pb-lg-5  col-md-8 col-xl-12 font-color">You get a 3-week final trial to
+                                        kick the
+                                        scruity value. We want
+                                        you so. </p>
+                                </div>
+                                <div class="col-6 col-xl-6">
+                                    <h1 class="num col-xl-6 font-color">2.</h1>
+                                    <h3 class="about-head col-xl-7 font-color">What Do We Do</h3>
+                                    <p class="about-text pb-4  pb-lg-5  col-md-8 col-xl-10 font-color">We make furnitures that are
+                                        elegant and
+                                        luxurious</p>
+                                </div>
+                                <div class="col col-xl-6">
+                                    <h1 class="num font-color">3.</h1>
+                                    <h3 class="about-head font-color">How Do We Help</h3>
+                                    <p class="about-text pb-4  pb-lg-5  col-md-8 col-xl-12 font-color">We help you to design your
+                                        desired funiture
+                                        without stress.</p>
+                                </div>
+                                <div class="col col-xl-6">
+                                    <h1 class="num col-xl-6 font-color">4.</h1>
+                                    <h3 class="about-head col-xl-9 font-color">Create Success Story</h3>
+                                    <p class="about-text pb-4  pb-lg-5  col-md-8 col-xl-9">We ease you the stress of
+                                        checking out
+                                        furnitures in walk-in
+                                        stores.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-4 pe-5">
+                            <div class="">
+                                <img src="assests/Group 248.png" alt="" class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fliud mt-3 py-5 px-2 px-md-4 px-xl-5 bg-2" id="review.html">
+            <div class="row justify-content-center text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="rating-head font-color">See what our customers have to say</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assests/Rater.png" alt="rating" class="w-100">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assests/star.png" alt="rating">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3 class="rater font-color">Toluwalope Ade</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col pt-4 pt-md-4 pt-xl-5 ps-xl-5">
+                        <div class="px-xl-5 text-center w-100">
+                            <p class="rate-text font-color">When i newly moved into my new apartment
+                                getting my furnitures was a great concern for me so i
+                                told my friend about
+                                my worries and he told me to checkout your website,i got all i wanted and needed at my
+                                convenience
+                                and all my worries were gone, thanks to CHAMP for this, you are the real Champ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid py-3 px-md-5 pt-xl-5 bg-3">
+            <div class="row px-xl-5">
+                <div class="col-12 pb-3 col-xl-10 pb-xl-5">
+                    <h1 class="let font-color-2 col-xl-10 pb-xl-3">Let’s help you design your elegant and luxurious furnitures</h1>
+                </div>
+                <hr class="font-color-2 pb-xl-5">
+                <div class="col pt-xl-3">
+                    <div class="row">
+                        <div class="col-10 col-xl-3">
+                            <img src="assests/Frame 1.png" alt="logo" class="">
+                            <h1 class="col col-xl-12 footer-text font-color-2 py-3 py-xl-2">Good workmanship connects your memories with the community resources.</h1>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-3">
+                            <h3 class="footer-head font-color-2">Products</h3>
+                            <ul class="list-unstyled">
+                                <li class="footer-text font-color-2 py-2">Chairs</li>
+                                <li class="footer-text font-color-2 py-2">Lights</li>
+                                <li class="footer-text font-color-2 py-2">Sofa</li>
+                                <li class="footer-text font-color-2 py-2">Beds</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-3">
+                            <h3 class="footer-head font-color-2">Useful Links</h3>
+                            <ul class="list-unstyled text-decoration-none">
+                                <li class="footer-text font-color-2 py-2"><a href="#about.html" class="text-decoration-none font-color-2">About</a></li>
+                                <li class="footer-text font-color-2 py-2"><a href="#review.html" class="text-decoration-none font-color-2">Reviews</a></li>
+                                <li class="footer-text font-color-2 py-2"><a href="#deals.html" class="text-decoration-none font-color-2">Deals</a></li>
+                                <li class="footer-text font-color-2 py-2"><a href="#help.html" class="text-decoration-none font-color-2">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-4 col-xl-3">
+                            <h3 class="footer-head font-color-2">Contact Us</h3>
+                            <ul class="list-unstyled">
+                                <li class="footer-text font-color-2 py-2"><img src="assests/mail.png" alt="mail"> www.champglobal.com</li>
+                                <li class="footer-text font-color-2 py-2"><img src="assests/phone.png" alt="phone"> +0123 4567 8910</li>
+                                <li class="footer-text font-color-2 py-2"><img src="assests/location.png" alt="location"> 725 John Avenue</li>
+                                <li><img src="assests/ant-design_twitter-square-filled.png" alt="twitter">
+                                    <img src="assests/fa-brands_facebook-square.png" alt="facebook">
+                                    <img src="assests/teenyicons_instagram-solid.png" alt="instagram">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

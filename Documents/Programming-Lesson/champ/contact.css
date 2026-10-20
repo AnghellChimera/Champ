@@ -1,0 +1,124 @@
+.menu {
+    @media screen and (max-width: 991px) {
+        background: rgba(225, 225, 225, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(225, 225, 225, 0.2);
+    }
+}
+
+.nav-item {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+#previous {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+
+}
+
+#current {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+}
+
+.drop-but{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+}
+
+.con-head{
+    font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #161616;
+}
+
+.con-body{
+    font-family: Raleway;
+font-weight: 300;
+font-style: Light;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+color: #6D6D6D;
+}
+
+.con-link{
+    font-family: Raleway;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #6D6D6D;
+}
+
+.form-text{
+    font-family: Raleway;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #161616;
+}
+
+.form{
+    border: 1px solid #161616;
+}
+
+.form::placeholder{
+    font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #6D6D6D;
+}
+
+.send{
+    background-color: #295251;
+    font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #FFFFFF;
+}

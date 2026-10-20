@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champ confirmation page</title>
+    <link rel="icon" href="assests/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./confirmation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="container pb-5">
+        <section>
+            <div class="nav-container pb-5 d-flex justify-lg-between">
+                <div class="navbar-brand col-6 col-lg-4">
+                    <a href="index.html"><img src="assests/vector 2.png" alt="arrow"></a>
+                    <img src="assests/logo.png" alt="logo" class="ps-2 ps-md-3">
+                </div>
+                <nav class="navbar navbar-expand-lg col-6 col-lg-8">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                            <div class="container d-lg-flex ">
+                                <ul class="navbar-nav d-lg-flex gap-lg-3 ps-xl-0 col-lg-6 col-xl-7">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html" id="previous">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="product.html"
+                                            id="current">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html" id="previous">Contact</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav col-lg-6 col-xl-6">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex align-items-center dropdown-toggle" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> <img src="assests/Account.png" alt="account"
+                                                class="pe-1">
+                                            <span class="drop-but">Account</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                            <li><a class="dropdown-item" href="Log-in.html">Log In</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex align-items-center dropdown-toggle" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> <img src="assests/Help.png" alt="help" class="pe-1">
+                                            <span class="drop-but">Help</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="contact.html">help</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex align-items-center dropdown-toggle" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> <img src="assests/Cart.png" alt="cart" class="pe-1">
+                                            <span class="drop-but">Cart</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="cart.html">cart</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <!-- first segment -->
+                <div class="col-lg-6">
+                    <!-- text box -->
+                    <div class="row pt-3">
+                        <h1 class="col-lg-12 pb-3 con-head">Your Furniture payment have been confirmed</h1>
+                        <p class="con-body pb-2">Thank you for your patronage of our exquisite Furniture.</p>
+                        <div class="pb-4">
+                            <img src="assests/Payment.png" alt="payment sign" class="w-100">
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="con-body">Furniture selected</p>
+                            <p class="con-body">Payment received</p>
+                            <p class="con-body">Incoming delivery </p>
+                        </div>
+                        <p class="con-num pt-3 pb-4">Your confirmation Number is 26178789766</p>
+                        <!-- button box -->
+                        <div class="pt-5 pb-4">
+                            <button type="button" onclick="window.location.href='product.html'"
+                                class="more py-4 w-100 rounded-3 border-0">Shop more</button>
+                        </div>
+                        <div class="pt-3">
+                            <button type="button" onclick="window.location.href='index.html'"
+                                class="back py-4 w-100 rounded-3"> Back to Homepage</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- secound segment -->
+                <div class="col-lg-6 ps-lg-5 pt-5 pt-lg-0">
+                    <h1 class="sum">Furniture summary</h1>
+                    <div class="row shadow ms-lg-0 ms-xl-0 px-3 py-4 ps-4" id="confirmation-order-container">
+                        <div class="row pb-2 pt-3">
+                            <div class="col-6 col-md-5 col-lg-4 text-start">
+                                <img src="assests/cart1.png" alt="arm chair" class="w-75">
+                            </div>
+                            <div class="col-md-4 col-6 col-lg-5">
+                                <h2 class="prod">Armchair</h2>
+                                <p class="des">Metal Legs and wooden frame living room chair.</p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 text-end">
+                                <h1 class="price pt-lg-3">$45.00</h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row pb-2">
+                            <div class="col-6 col-md-5 col-lg-4">
+                                <img src="assests/cart2.png" alt="hand base lamp" class="w-75">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-5">
+                                <h2 class="prod">Hand base Lamp</h2>
+                                <p class="des">Metal Legs and crystal lamp for living room.</p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 text-end">
+                                <h1 class="price pt-lg-3">$36.00</h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row pb-2">
+                            <div class="col-6 col-md-5 col-lg-4">
+                                <img src="assests/cart3.png" alt="double bed" class="w-75">
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-5">
+                                <h2 class="prod">Double Bed</h2>
+                                <p class="des">Wooden bed frame neatly carved for bedroom usage.</p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 text-end">
+                                <h1 class="price pt-lg-3">$450.00</h1>
+                            </div>
+                        </div>
+                        <div class="row pb-2 pt-4">
+                            <div class="col-8 col-md-5 col-lg-9">
+                                <h2 class="subtotal">Subtotal</h2>
+                                <p class="des-del mt-2">Delivery fee have been included</p>
+                            </div>
+                            <div class="col-4 col-md-6 col-lg-3 text-end">
+                                <h1 class="price">$551.00</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="confirmation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+.nav-item {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+#previous {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+
+}
+
+#current {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+}
+
+.drop-but {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+}
+
+.shop {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.prod {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.det {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    color: #6D6D6D;
+}
+
+/* Default state of the like icon */
+img[alt="like"] {
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* TikTok-style solid filled look when active */
+img[alt="like"].liked {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(95%) saturate(7460%) hue-rotate(357deg) brightness(98%) contrast(118%);
+    transform: scale(1.2); /* Gives it a nice TikTok-style pop animation */
+}
+
+.price {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    /* text-align: right; */
+    color: #161616;
+}
+
+.amount-but {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #ffffff;
+    background-color: #295251;
+}
+
+.number {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.cart {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.head-t {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.body-t {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    color: #6D6D6D;
+}
+
+.sub-total{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    /* text-align: right; */
+    color: #161616;
+}
+
+.chec-but {
+    background-color: #295251;
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+
+}

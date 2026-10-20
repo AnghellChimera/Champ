@@ -1,0 +1,175 @@
+.menu {
+    @media screen and (max-width: 991px) {
+        background: rgba(225, 225, 225, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(225, 225, 225, 0.2);
+    }
+}
+
+.nav-item {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+#previous {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+
+}
+
+#current {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+}
+
+.drop-but {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #161616;
+}
+
+.ava {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #161616;
+}
+
+.search {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.search::placeholder {
+    padding-left: 3rem;
+    color: #6D6D6D;
+}
+
+#but-1 {
+    background-color: #295251;
+    padding: 1.2rem 2rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    border-radius: 4px;
+}
+
+#but-1:active,
+#but-1:focus {
+    background-color: #295251;
+    padding: 1.2rem 2rem;
+
+}
+
+#curen {
+    background-color: #295251;
+}
+
+.prod-search {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+#others {
+    background-color: #f5f5f5 !important;
+}
+
+#others:active,
+#others:focus{
+    background-color: #295251 !important;
+    color: #ffffff !important;
+}
+
+.product {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616 !important;
+}
+
+.current-price {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616 !important;
+}
+
+.previous-price {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #6D6D6D !important;
+}
+
+#but-2 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    background-color: #295251 !important;
+}
+
+#but-2:active,
+#but-2:focus {
+    background-color: #295251 !important;
+}

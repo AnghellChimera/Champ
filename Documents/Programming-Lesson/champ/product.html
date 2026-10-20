@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funiture listing</title>
+    <link rel="icon" href="assests/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        :root {
+            --first-color: #295251;
+            --font-family-1: "Raleway", sans-serif;
+            --button-size: 0.8rem 2rem;
+            --color-1: #161616;
+            --color-2: #16161654;
+            --prod-bg-width: 300px;
+            --prod-bg-height: 250px;
+            --prod-bg: #C4C4C42B;
+            --prod-min-height: 520px;
+            --bg-2: #F5F5F5;
+            --bg-3: #295251;
+            --font: #FFFFFF;
+            --opac: 1;
+            /* --height: 60px; */
+            --but-s: 0.5rem 2rem;
+            --wid: 157.58px;
+            --hei: 50px;
+            --prim: #ff0043;
+            --height-1: 20px;
+            --bg-4: #295251;
+            --wid-max: 200px;
+            --width: 280px;
+            --width2: 300px;
+        }
+
+        .button-1 {
+            background-color:
+                var(--first-color);
+        }
+
+        .fontFamily-1 {
+            font-family:
+                var(--font-family-1);
+        }
+
+        .but-size {
+            padding: var(--button-size);
+        }
+
+        .search-bg {
+            background-color:
+                var(--color-2);
+        }
+
+        .font-color {
+            color:
+                var(--color-1);
+        }
+
+        .mob-h {
+            height:
+                var(--prod-bg-height);
+        }
+
+        .mob-w {
+            width: var(--prod-bg-width);
+        }
+
+        .prod-bg {
+            background-color: var(--prod-bg);
+        }
+
+        .prod-min-h {
+            min-height: var(--prod-min-height);
+        }
+
+        .bg-2 {
+            background-color: var(--bg-2);
+        }
+
+        .bg-3 {
+            background-color: var(--bg-3);
+        }
+
+        .font-color-2 {
+            color: var(--font);
+        }
+
+        .fade {
+            opacity: var(--opac);
+        }
+
+        .search-h {
+            max-height: var(--height);
+        }
+
+        .test-red {
+            color: var(--prim);
+        }
+
+        .but-h {
+            height: var(--hei);
+        }
+
+        .but-w {
+            width: var(--wid);
+        }
+
+        .but-size-s {
+            padding: var(--but-s);
+        }
+
+        .hei {
+            height: var(--height-1);
+        }
+
+        .but-bg {
+            background-color: var(--bg-4);
+        }
+
+        .bord {
+            border-color: var(--color-1);
+        }
+
+        .box-max {
+            max-width: var(--wid-max);
+        }
+
+        .p-w {
+            width: var(--width);
+        }
+
+        .p-w2 {
+            width: var(--width2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1 pt-4 pb-5">
+        <section class="container pb-5">
+            <div class="nav-container pb-5 d-flex justify-lg-between">
+                <div class="navbar-brand col-6 col-lg-4">
+                    <a href="index.html"><img src="assests/vector 2.png" alt="arrow"></a>
+                    <img src="assests/logo.png" alt="logo" class="ps-2 ps-md-3">
+                </div>
+                <nav class="navbar navbar-expand-lg col-6 col-lg-8">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                            <div class="container d-lg-flex">
+                                <ul class="navbar-nav pe-lg-5 ps-xl-0 d-lg-flex gap-lg-3 col-lg-6 col-xl-7">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html" id="previous">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="product.html"
+                                            id="current">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html" id="previous">Contact</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav col-lg-6 d-lg-flex gap-lg-1 col-xl-6">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex align-items-center dropdown-toggle" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> <img src="assests/Account.png" alt="account"
+                                                class="pe-1">
+                                            <span class="drop-but">Account</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                            <li><a class="dropdown-item" href="Log-in.html">Log In</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex align-items-center dropdown-toggle" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> <img src="assests/Help.png" alt="help" class="pe-1">
+                                            <span class="drop-but">Help</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="contact.html">help</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex align-items-center dropdown-toggle" href="#"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> <img src="assests/Cart.png" alt="cart" class="pe-1">
+                                            <span class="drop-but">Cart</span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="cart.html">cart</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="pt-lg-2">
+                <h1 class="ava pb-4 pb-lg-5">Available Furniture</h1>
+                <div class="row">
+                    <div class="col-lg-9 position-relative">
+                        <input type="search" class="form-control search-h py-3 search border-1 bord"
+                            placeholder="Search for available furniture" aria-label="search">
+                        <img src="assests/search.png" alt="search"
+                            class="position-absolute top-50 start-0 translate-middle mx-5">
+                    </div>
+                    <div class="col-lg-3 pt-3 pt-lg-0">
+                        <button onclick="location.href='sign-in.  html'" type="button"
+                            class="btn btn-lg ms-lg-3 text-light button-1 but-size" id="but-1">Create Account
+                        </button>
+                    </div>
+                </div>
+                <div class="btn-group row pt-4" role="group" aria-label="filter option">
+                    <div class="but-w but-h mb-2 col-lg-2">
+                        <button type="button" class="btn text-center active text-light but-size-s prod-search"
+                            id="curen">All</button>
+                    </div>
+                    <div class="but-w mb-2 mx-0 but-h col-lg-2">
+                        <button type="button" class="btn font-color bg-primary but-size-s prod-search"
+                            id="others">Beds</button>
+                    </div>
+                    <div class="but-w mb-2 mx-0 but-h col-lg-2">
+                        <button type="button" class="btn font-color bg-primary but-size-s prod-search"
+                            id="others">Chairs</button>
+                    </div>
+                    <div class="but-w mb-2 mx-0 but-h col-lg-4">
+                        <button type="button" class="btn font-color bg-primary but-size-s prod-search"
+                            id="others">Lights</button>
+                    </div>
+                    <div class="but-w mb-2 mx-0 but-h">
+                        <button type="button" class="btn font-color bg-primary but-size-s prod-search"
+                            id="others">Sofa</button>
+                    </div>
+                    <!-- <button type="button" class="btn col-lg-2 bg-primary text-light but-size-s prod-search">All</button>
+                    <button type="button" class="btn col-lg-2 bg-primary text-light but-size-s prod-search">All</button>
+                    <button type="button" class="btn col-lg-2 bg-primary text-light but-size-s prod-search">All</button> -->
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="container row pt-3 pt-xl-5 justify-content-center justify-content-md-between">
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" onclick="location.href='details.html'"
+                                    class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Stylish Chair</p>
+                            <p class="current-price font-color text-h">$45.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$55.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-4">
+                            <img src="assests/Stylish-chair.png" alt="stylish chair" class="">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Lamp Tool</p>
+                            <p class="current-price font-color text-h">$46.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$56.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-5">
+                            <img src="assests/Lamp-tool.png" alt="lamp tool" class="mx-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Vintage Chair</p>
+                            <p class="current-price font-color text-h">$65.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$75.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-4">
+                            <img src="assests/home-design-removebg-preview 3.png" alt="vintage chair" class="">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Hand Base Lamp</p>
+                            <p class="current-price font-color text-h">$36.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$40.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-5">
+                            <img src="assests/Product-1.png" alt="hand base lamp" class="mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Stylish Chair</p>
+                            <p class="current-price font-color text-h">$87.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$97.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-5">
+                            <img src="assests/Stackable-chair.png" alt="stackable chair" class="mx-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Artemde Lamp</p>
+                            <p class="current-price font-color text-h">$46.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$56.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-5">
+                            <img src="assests/Artemide.png" alt="artemide lamp" class="mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Unique Sofa</p>
+                            <p class="current-price font-color text-h">$350.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$400.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-0">
+                            <img src="assests/unique_sofa.png" alt="unique sofa" class="p-w mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Double Bed</p>
+                            <p class="current-price font-color text-h">$450.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$500.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-0">
+                            <img src="assests/download__3.png" alt="double bed" class="p-w2 mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Indivi Sofa</p>
+                            <p class="current-price font-color text-h">$450.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$500.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-0">
+                            <img src="assests/indivi_sofa.png" alt="indivi sofa" class="p-w mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Wood Modern Bed</p>
+                            <p class="current-price font-color text-h">$550.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$650.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-0">
+                            <img src="assests/wood_modern_bed.png" alt="wood modern bed" class="p-w2 ms-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Stylish Chair</p>
+                            <p class="current-price font-color text-h">$550.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$600.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-0">
+                            <img src="assests/3_seater_sofa.png" alt="3 seater sofa" class="p-w mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-min-h col col-md-6 col-xl-4 px-5 mx-5 mx-md-0">
+                    <div class="col-6 d-flex justify-self-center col-md-6 col-xl-4 position-relative">
+                        <div class="prod-bg  flex-shrink-0 text-center mob-w mob-h position-relative">
+                            <div class="position-absolute end-0 top-0 mt-4 translate-middle">
+                                <img src="assests/cart-2.png" alt="cart" class="pb-5">
+                            </div>
+                            <p class="product pt-4 font-color">Wooden Box Bed</p>
+                            <p class="current-price font-color text-h">$250.00 <span class="previous-price"><del
+                                        class="previous-price ms-5 font-color">$300.00</del></span></p>
+                        </div>
+                        <div class="d-flex justify-content-center position-absolute top-50 mx-0">
+                            <img src="assests/double-box-bed.png" alt="stylish chair" class="p-w mx-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container pb-5">
+                <button type="button" class="btn w-100 py-4 btn-lg text-light" id="but-2">View available
+                    Furniture</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="product.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+.create {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.form-1 {
+    border: 1px solid #161616 !important;
+}
+
+.form-1::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.or {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #161616;
+}
+
+.gog{
+    @media screen and (min-width: 1050px){
+        margin-left: 5rem !important;
+    }
+}
+
+.form-text{
+    font-family: "Raleway", sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #161616;
+}
+
+.form-2{
+    border: 1px solid #161616;
+}
+
+.form-2::placeholder{
+    font-family: "Raleway", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #6D6D6D;
+}
+
+.create-btn{
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #ffffff;
+background-color: #295251;
+}
+
+.already{
+    font-family: "Raleway", sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #295251;
+}
+
+.log{
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+color: #295251;
+}
