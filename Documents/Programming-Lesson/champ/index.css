@@ -2,6 +2,18 @@
     height: 100vh;
 }
 
+.menu {
+    @media screen and (max-width: 991px) {
+        background: rgba(225, 225, 225, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(225, 225, 225, 0.2);
+        z-index: 10;
+        /* height: 100vh; */
+        
+    }
+}
+
 
 .nav-item {
     font-family: "Raleway", sans-serif;
@@ -93,6 +105,22 @@
     letter-spacing: 0%;
     text-transform: capitalize;
 
+}
+
+
+.rec-box{
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.rec{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
 }
 
 /* .form-control{
